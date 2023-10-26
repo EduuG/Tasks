@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ed9fdd1525.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="desktop">
+        <div class="tasks window">
+          <div id="titlebar">
+            <p>Tasks<p>
+          </div>
+          <div id="selection">
+            <div id="upper">
+              <div id="addTask">
+                <input id="textField" type="text" placeholder="New task...">
+                <input id="add" type="submit" value="Add">
+              </div>
+              <p id="conclusionText"><span id="conclusionPerc">0</span>% Completed</p>
+            </div>
+            <div id="taskList">
+              <ul id = "tasks">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./tasks/tasks.js"></script>
+  </body>
+</html>
