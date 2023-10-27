@@ -19,12 +19,29 @@
             <div id="upper">
               <div id="addTask">
                 <input id="textField" type="text" placeholder="New task...">
-                <input id="add" type="submit" value="Add">
+                <div id="add"><i class='fa-solid fa-plus'></i></div>
               </div>
               <p id="conclusionText"><span id="conclusionPerc">0</span>% Completed</p>
             </div>
             <div id="taskList">
-              <ul id = "tasks">
+              <div id="placeholder">
+                <p>Add something!</p>
+              </div>
+              <ul id="tasks">
+                <ul class="taskOption">
+                  <div class="rename">
+                    <div class="icon">
+                      <i class="fa-solid fa-pen"></i>
+                    </div>
+                    <li>Rename</li>
+                  </div>
+                  <div class="delete">
+                    <div class="icon">
+                    <i class="fa-solid fa-trash"></i>
+                    </div>
+                    <li>Delete</li>
+                  </div>
+                </ul>
               </ul>
             </div>
           </div>
