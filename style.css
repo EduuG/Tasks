@@ -171,9 +171,10 @@ body {
   box-shadow: 0px 8px 12px -6px rgba(0,0,0,0.4);
 -webkit-box-shadow: 0px 8px 12px -6px rgba(0,0,0,0.4);
 -moz-box-shadow: 0px 8px 12px -6px rgba(0,0,0,0.4);
-  border-radius: 100px;
-  min-width: 44px;
-  max-height: 44px;
+  border-radius: 50%;
+  border: 3px solid rgba(235, 243, 250, 0.952);
+  width: 40px;
+  height: 40px;
 }
 
 #taskList #checkbox img {

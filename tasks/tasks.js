@@ -86,7 +86,7 @@ function addToList() {
 
     taskStyle(div, task, text, checkbox, glyphCheck, options);
 
-    text.innerHTML = currentTask.task;
+    text.innerText = currentTask.task;
     task.setAttribute("id", arrayTasks.length - 1);
 
     task.appendChild(options);
@@ -223,7 +223,7 @@ function updateConclusionPerc() {
   let percentHtml = document.getElementById("conclusionPerc");
   let percent = Math.round((finishedTasks.length / arrayTasks.length) * 100)
 
-  percentHtml.innerHTML = percent;
+  percentHtml.innerText = percent;
 };
 
 
@@ -299,7 +299,7 @@ function createOption(menu, text, iconClass) {
   iconBox.style.alignItems = 'center';
 
   const title = document.createElement('p');
-  title.innerHTML = text;
+  title.innerText = text;
 
   const icon = document.createElement('i');
   icon.classList.add('fa-solid', iconClass);
